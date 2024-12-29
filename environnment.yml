@@ -1,0 +1,12 @@
+name: yahtzee  # Name of your environment
+channels:
+  - conda-forge       # Add any additional channels you need
+  - defaults
+dependencies:
+  - python=3.9        # Specify the Python version
+  - numpy            # Add core dependencies
+  - ray-rllib=2.40.0
+  - pytest          # For testing
+  - pip               # Include pip for additional dependencies
+  - pip:
+    - gymnasium
